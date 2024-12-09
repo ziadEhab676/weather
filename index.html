@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes app</title>
+
+
+
+
+    <link rel="stylesheet" href="./css styling/all.min.css">
+    <link rel="stylesheet" href="./css styling/bootstrap.min.css">
+    <link rel="stylesheet" href="./css styling/stylin.css">
+</head>
+
+<body>
+
+
+  
+    <nav class="navbar bg-dark text-white container-fluid">
+        <div class="container d-flex  justify-content-between align-items-center">
+            <a class="navbar-brand  text-white" href="#">
+                <img src="./images/logo@2x.png" alt="Logo"  class="d-inline-block align-text-top imagelogo">
+                Weather
+            </a>
+
+            <form class=" justify-content-start">
+
+                <button class="roundButton btn btn-sm btn-outline-primary" type="button">Home </button>
+                <button class="roundButton btn btn-sm btn-outline-primary" type="button">News</button>
+                <button class="roundButton btn btn-sm btn-outline-primary" type="button">Live cameras</button>
+                <button class="roundButton btn btn-sm btn-outline-primary" type="button">Photos</button>
+                <button class="roundButton btn btn-sm btn-outline-primary" type="button">Contact</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <main class="weather-container">
+        <div class="mb-4 container text-center">
+            <input value="" type="text" class="form-control w-50 mx-auto d-inline" placeholder="Find your location..."
+                id="locSearchName" />
+            <button class="btn btn-primary" id="findButton">Find</button>
+        </div>
+        <div class="container text-center text-white py-5">
+            <div class="replacor row justify-content-center"></div>
+        </div>
+    </main>
+
+
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="mb-3">
+                <input type="email" class="form-control w-50 mx-auto d-inline"
+                    placeholder="Enter your email to subscribe..." />
+                <button class="btn btn-primary">Subscribe</button>
+            </div>
+            <p>&copy; 2014 Company name. Designed by Themezy. All rights reserved.</p>
+            <div class="">
+                <a href="#" class="text-white mx-2"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fa-brands fa-google"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./my js/bootstrap.bundle.min.js"></script>
+    <script src="./my js/myjs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+body {
+    background-image: url('../images/banner.png');
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.roundButton{
+    border-radius: 20px;
+}
+
+.weather-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.weather-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer a {
+    font-size: 1.5rem;
+}
+
+.imagelogo{
+    width: 30px;
+    height: 24px;
+
+}
